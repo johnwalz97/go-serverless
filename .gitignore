@@ -16,3 +16,6 @@
 
 # Node.js stuff
 node_modules
+
+# Build stuff
+bin

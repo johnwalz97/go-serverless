@@ -1,0 +1,26 @@
+service: go-serverless
+
+provider:
+  name: aws
+  runtime: go1.x
+  environment:
+    foo: bar
+
+package:
+  patterns:
+    - '!./**'
+    - ./bin/**
+
+functions:
+  hello:
+    handler: bin/hello
+    events:
+      - httpApi:
+          path: /hello
+          method: get
+  world:
+    handler: bin/world
+    events:
+      - httpApi:
+          path: /world
+          method: get
