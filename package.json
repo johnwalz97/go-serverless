@@ -1,0 +1,18 @@
+{
+  "name": "go-serverless",
+  "version": "1.0.0",
+  "description": "Golang serverless API using AWS services (Lambda, DynamoDB and API Gateway)",
+  "scripts": {
+    "deploy": "serverless deploy --stage dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwalz97/go-serverless.git"
+  },
+  "author": "John Walz <johnwalz97@gmail.com>",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/johnwalz97/go-serverless/issues"
+  },
+  "homepage": "https://github.com/johnwalz97/go-serverless#readme"
+}
